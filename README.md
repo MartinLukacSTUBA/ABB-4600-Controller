@@ -8,15 +8,16 @@ C++ API takým spôsobom aby oskenoval zvolený objekt v simulovanom prostredí.
 skenovanie bude použitý simulovaný laserový skener, ktorého jednotlivé skeny bude
 potrebné spojiť do jedného mračna bodov. Najdôležitejšie je porozumieť problematike.
 Zadanie vypracujte rozšírením zdrojových kódov z cvičenia 7 nasledovnými úpravami a
-rozšíreniami:
-	1. Pridanie laserového skenera
-	2. Vytváranie mračna bodov
-	3. Vytvorenie gazebo sveta
-	4. Spúšťanie gazebo sveta
-	5. Zvýšenie frekvencie TF
-	6. Návrh skenovacej trajektórie
-	7. Nadradený balíček
-Podrobné špecifikovanie jednotlivých bodov zadania:
+rozšíreniami:\
+	1. Pridanie laserového skenera\
+	2. Vytváranie mračna bodov\
+	3. Vytvorenie gazebo sveta\
+	4. Spúšťanie gazebo sveta\
+	5. Zvýšenie frekvencie TF\
+	6. Návrh skenovacej trajektórie\
+	7. Nadradený balíček\
+	
+Podrobné špecifikovanie jednotlivých bodov zadania:\
 	1. Upravte gazebo simuláciu tak, aby robot obsahoval simuláciu laserového skenera a
 	publikoval skeny na topic. Laserový skener nech smeruje kolmo z príruby koncového
 	efektora.
