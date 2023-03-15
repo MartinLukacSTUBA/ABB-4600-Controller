@@ -1,0 +1,7 @@
+<launch>
+	<param name="robot_description" textfile="$(find rrm_cv3_lukac)/urdf/arm.urdf" />
+	<param name="use_gui" value="True"/>
+	<node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
+ 	<node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" />
+	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find rrm_cv3_lukac)/config/rrm_cv3_lukac.rviz" required="true" />
+</launch>
